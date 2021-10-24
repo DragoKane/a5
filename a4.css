@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1140px;
+}
+.head{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.5018382352941176) 100%, rgba(0,0,0,0.4990371148459384) 100%, rgba(0,212,255,1) 100%),
+url(skalistye-gory.jpg) no-repeat center center;
+width: 100%;
+height: 100vh;
+color: antiquewhite;
+background-size: cover;
+}
+.sec {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 530px;
+}
+.sec2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2 h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.sec2 a{
+    margin-top: 20px;
+    border: 3px solid antiquewhite;
+    padding: 8px;
+    font-size: 19px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.anim:hover{
+font-size: 25px;
+transition: font-size 0,5s;
+}
+.sec2 a:hover{
+    background: white;
+    color: red;
+    transition: 2s;
+}
+.main{
+    padding: 100px 0;
+    text-align: center;
+}
+h2.h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #555555;
+    margin: 30px;
+}
+.line{
+    width: 50px;
+    height: 3px;
+    background-color: #555555;
+    margin: 30px auto;
+}
+.main-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.block{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    border:2px solid lightgray;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 43px;
+    color:#c0301c
+
+}
+.block h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.img:hover{
+    background-color: #c0301c;
+    color: white;
+}
+.footer{
+    background-color: #c0301c ;
+    padding: 100px 0;
+}
+.twitter{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 200px;
+}
+.footer-text{
+    margin-top: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.link a:hover{
+    background: white;
+    color: red;
+}
+
+
+
+
+
+
+
